@@ -1,0 +1,4 @@
+FROM scratch
+COPY go-music-api /home/appuser/go-music-api
+COPY ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
+COPY cookies.json /home/appuser/cookies.json
